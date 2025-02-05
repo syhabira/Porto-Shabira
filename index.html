@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="mb-5 -2 navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container d-flex p-2">
+        <a class="navbar-brand fw-semibold" href="#">Shabira's Profile</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" id="active" aria-current="page" href="#"
+              >Home</a
+            >
+            <a class="nav-link" href="#">Portofolio</a>
+            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#">Timeline</a>
+            <a class="nav-link" href="#">News</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container" style="margin-top: 5rem; margin-bottom: 7rem">
+      <div class="row">
+        <div class="col">
+          <h4 class="fw-semibold mb-3" id="active">Shabira's Profile</h4>
+          <h1 class="fw-bold lh-base" style="font-size: 3.5rem">
+            JUNIOR WEB <br />
+            DEVELOPER IN <br />
+            INDONESIA
+          </h1>
+          <ul class="lh-lg p-0">
+            <li><a href="">Web Development</a></li>
+            <li><a href="">Mobile Development</a></li>
+            <li><a href="">Graphic Designer</a></li>
+          </ul>
+          <div class="margins">
+            <div class="container mt-5">
+              <div
+                class="blabla"
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  gap: 25px;
+                  flex-wrap: wrap;
+                "
+              >
+                <div class="fw-bold" style="font-size: 2rem">10+</div>
+                <div class="">
+                  <p>Year Of <br />Experience</p>
+                </div>
+                <div class="fw-bold" style="font-size: 2rem">30K</div>
+                <div class="">
+                  <p>Happy <br />Customers</p>
+                </div>
+              </div>
+              <button type="button" class="mt-4 btn text-white" id="active-bg">
+                Deskripsi Diri
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <img
+            src="img/6d82e301-fd74-464c-acc0-0f1bca4c95da.jpg"
+            alt=""
+            class="w-75"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h5 class="fw-semibold lh-lg" id="active">Portofolio</h5>
+      <h1 class="fw-bold">SELECTED WORKS</h1>
+      <div class="container mt-4 d-flex justify-content-between p-0">
+        <div class="card p-3" style="width: 24rem">
+          <img src="img/portfolio-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="card-text">
+              <h6 class="fw-bold">Podomoro Timer APP UI</h6>
+              <div class="mb-0" id="active">Detail Portofolio</div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3" style="width: 24rem">
+          <img src="img/portfolio-2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="card-text">
+              <h6 class="fw-bold">Podomoro Timer APP UI</h6>
+              <div class="mb-0" id="active">Detail Portofolio</div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3" style="width: 24rem">
+          <img src="img/portfolio-6.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="card-text">
+              <h6 class="fw-bold">Podomoro Timer APP UI</h6>
+              <div class="mb-0" id="active">Detail Portofolio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-black mt-5 p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h5 id="active" class="mb-3 pt-5">SKILLS</h5>
+            <h2 id="active" class="fw-bold text-light mb-5">
+              PROGRAMMING SKILLS
+            </h2>
+            <div class="text-light d-flex justify-content-between fw-bold">
+              <p>HTML</p>
+              <p>50%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" id="active-bg" style="width: 50%"></div>
+            </div>
+            <div class="text-light d-flex justify-content-between fw-bold">
+              <p>CSS</p>
+              <p>75%</p>
+            </div>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" id="active-bg" style="width: 75%"></div>
+            </div>
+            <div class="text-light d-flex justify-content-between fw-bold">
+              <p>JAVASCRIPT</p>
+              <p>100%</p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar"
+                id="active-bg"
+                style="width: 100%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-end mt-5">
+            <img
+              src="img/6d82e301-fd74-464c-acc0-0f1bca4c95da.jpg"
+              alt=""
+              class="w-50"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h5 id="active" class="fw-semibold lh-lg">Timeline</h5>
+      <h1 class="fw-bold">WORKING PERIOD</h1>
+      <div class="d-flex justify-content-between mt-5">
+        <p>Januari 2024 - Today</p>
+        <p>Head Programmer & Co-Faunder</p>
+        <p>Shopee, Jakarta</p>
+      </div>
+      <div class="d-flex justify-content-between mt-2">
+        <p>Januari 2024 - Today</p>
+        <p>Head Programmer & Co-Faunder</p>
+        <p>Shopee, Jakarta</p>
+      </div>
+      <div class="d-flex justify-content-between mt-2">
+        <p>Januari 2024 - Today</p>
+        <p>Head Programmer & Co-Faunder</p>
+        <p>Shopee, Jakarta</p>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5">
+      <h5 class="fw-semibold lh-lg" id="active">Portofolio</h5>
+      <h1 class="fw-bold">SELECTED WORKS</h1>
+      <div class="container mt-5 d-flex justify-content-between p-0">
+        <div class="card p-3" style="width: 24rem">
+          <img src="img/news-1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="card-text lh-lg">
+              <h6 class="fw-bold pt-2">Podomoro Timer APP UI</h6>
+              <p>Bagaimana Membuat Web Portofolio</p>
+              <div class="mb-0 fw-semibold" id="active">Detail Portofolio</div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3" style="width: 24rem">
+          <img src="img/news-2.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="card-text lh-lg">
+              <h6 class="fw-bold pt-2">Podomoro Timer APP UI</h6>
+              <p>Bagaimana Membuat Web Portofolio</p>
+              <div class="mb-0 fw-semibold" id="active">Detail Portofolio</div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3" style="width: 24rem">
+          <img src="img/news-3.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="card-text lh-lg">
+              <h6 class="fw-bold pt-2">Podomoro Timer APP UI</h6>
+              <p>Bagaimana Membuat Web Portofolio</p>
+              <div class="mb-0 fw-semibold" id="active">Detail Portofolio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center" style="margin-top: 3rem">
+      <h1 class="fw-bold">TESTIMONY</h1>
+      <img src="img/pro2.webp" alt="" class="mt-3" />
+      <h3 id="active" class="fw-semibold mt-3">Brad Pitt</h3>
+      <p class="mt-3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero nobis
+        dolore <br />
+        deleniti, placeat ipsa alias optio. Sunt ducimus incidunt
+        exercitationem!
+      </p>
+    </div>
+    <div class="container mt-5">
+      <h4 id="active" class="lh-lg fw-semibold">Contact</h4>
+      <h1 class="fw-bold">GET IN TOUCH</h1>
+      <div class="container p-0 mt-5" style="margin-bottom: 5rem">
+        <div class="row">
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              dolorem iure et sit dolore ea! Sequi fugit impedit voluptas
+              pariatur?
+            </p>
+            <p>Town House Mutiara Pasirkuda, Bogor, Jawa Barat.</p>
+            <p>+62-813-1669-2619</p>
+            <p>syhaabiragetoOoO@gmail.com</p>
+          </div>
+          <div class="col d-flex justify-content-evenly">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <button type="submit" id="active-bg" class="btn text-light">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="p-3 text-light text-center bg-black fw-semibold">
+      Copyrights @2025 Shabira Syahla Alvaliza
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
